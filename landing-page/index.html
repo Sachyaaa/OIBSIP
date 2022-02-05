@@ -13,23 +13,23 @@
       <div class="nav-right">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Internship</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#internship">Internship</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="home">
+    <div  class="home">
       <h1>Build Your IT Here</h1>
       <span>You Have A Vision. We Have A Team To Get You There</span>
       <button>Get Started</button>
     </div>
 
-    <div class="about">
+    <div id="about" class="about">
       <h2>About Us</h2>
       <div class="flex">
         <div class="about-text">
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div class="services">
+    <div id="service" class="services">
       <h2>Our Services</h2>
       <div class="service flex">
         <div class="service-text">
@@ -217,7 +217,7 @@
       </div>
     </div>
 
-    <h2>Our Internship</h2>
+    <h2 id="internship" >Our Internship</h2>
     <div class="internship">
       <div class="internship-block">
         <lottie-player
@@ -339,7 +339,7 @@
       </div>
     </div>
 
-    <div class="team-block">
+    <div id="team" class="team-block">
       <h2>Our team</h2>
       <div class="team">
       <div class="team-member">
@@ -369,26 +369,51 @@
     </div>
   </div>
 
+  <div id="contact">
+    <h2>Contact Us</h2>
     <div class="contact">
       <div class="contact-img">
-        <img src="" alt="" />
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_mwawjro9.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
       </div>
       <div class="contact-form">
         <form action="">
-          <input type="text" name="" id="" />
-          <input type="text" name="" id="" />
-          <input type="email" name="" id="" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="text" name="" id="" placeholder="First Name"/>
+          <input type="text" name="" id="" placeholder="Last Name"/>
+          <input type="email" name="" id="" placeholder="Email"/>
+          <textarea name="" id="" cols="45" rows="5" placeholder="Message"></textarea>
         </form>
       </div>
     </div>
+  </div>
 
-    <div class="faq">
-      <div class="faq-img">
-        <img src="" alt="" />
-      </div>
-      .
-    </div>
+   <footer>
+     <div class="top-footer">
+       
+       <div><h3>
+         About Us
+       </h3>
+      <p>We Develop Personalized Software At Our Company, We Turn The Digital Dreams Of Our Clients Into A Reality. We Work Closely With Our Users Throughout Development To Ensure That We Are Still Aligned With The End-Goal. We Are Committed To Producing Exceptional Software For Each Of Our Clients.</p></div>
+       <div>
+         <h3>Quick Links</h3>
+         <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="">About</a></li>
+           <li><a href="">Services</a></li>
+           <li><a href="">Internship</a></li>
+           <li><a href="">Team</a></li>
+           <li><a href="">Contack</a></li>
+           
+         </ul>
+       </div>
+      
+     </div>
+     <div>
+       <h3>Contact Info</h3>
+
+     </div>
+   </footer>
+
+
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>

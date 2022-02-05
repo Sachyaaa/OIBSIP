@@ -4,6 +4,10 @@
   margin: 0;
   /* box-sizing: border-box; */
 }
+html{
+  scroll-behavior: smooth;
+
+}
 body {
   width: 100vw;
   overflow-x: hidden;
@@ -23,6 +27,7 @@ nav {
   font-size: 18px;
   color: #000;
   background-color: #f1c615;
+
 }
 .nav-left {
   font-size: 24px;
@@ -256,4 +261,66 @@ p {
     /* border: 1px solid #fff; */
     border-radius: 50%;
     box-shadow: 0px 0px 10px #f1c615;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 370px;
+  margin-right: 50px;
+}
+form input , textarea{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px 14px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 6px #1d8fb3;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  
+}
+::placeholder{
+  color: #1d8fb3;
+  font-weight: 600;
+}
+#contact{
+  background-color: #f1c615;
+  padding: 40px 0px;
+}
+
+
+footer{
+  background-color: #f1c615;
+  padding: 30px 10vw;
+}
+.top-footer{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top-footer ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.top-footer ul li{
+  color: #333;
+}
+.top footer a{
+  font-weight:400 ;
+  
+  margin: 20px 0px !important;
+}
+.top-footer p{
+  color: #333;
 }
