@@ -20,13 +20,15 @@ body{
     height: auto;
     padding: 20px;
 }
-.display{
+.display input{
     background-color: rgba(250, 249, 249, 0.877);
     width: 100%;
     height: 80px;
     border-radius: 10px;
     margin-bottom: 18px;
-
+    padding: 20px;
+    font-size: 40px;
+    text-align: end;
 }
 .btns{
     background-color: hsl(0, 5%, 81%);
