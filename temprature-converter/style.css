@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.top, .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    height: 50%;
+    width: 100%;
+    background-color: #F24E4E;
+    color: #fff;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    color: #F24E4E;
+}
