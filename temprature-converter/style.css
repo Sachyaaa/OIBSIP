@@ -25,3 +25,35 @@ body{
     background-color: white;
     color: #F24E4E;
 }
+ input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 44px;
+    width: 70vw;
+    text-align: center;
+}
+.top-input{
+    color: #fff;
+}
+.bottom-input{
+    color: #F24E4E;
+}
+.top-input::placeholder{
+    color: #fff ;
+} 
+.bottom-input::placeholder{
+    color: #F24E4E;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
