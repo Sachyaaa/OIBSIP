@@ -7,6 +7,16 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(114, 113, 113);
 }
 .top, .bottom{
     display: flex;
@@ -15,15 +25,25 @@ body{
     flex-direction: column;
 }
 .top{
-    height: 50%;
+    height: 210px;
     width: 100%;
-    background-color: #F24E4E;
+    background: #F24E4E;
     color: #fff;
 }
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    position: absolute;
+    z-index: 0;
+    top: 210px;
+    border-top: 70px solid #F24E4E;
+  }
 .bottom{
-    height: 50%;
+    height: 60%;
     width: 100%;
-    background-color: white;
+    background-color: #fff;
     color: #F24E4E;
 }
  input{
@@ -38,10 +58,14 @@ body{
 .top-input{
     color: #fff;
     border-bottom: 1px solid yellow;
+    position: relative;
+    top: 30px;
+    z-index: 100;
 }
 .bottom-input{
     color: #F24E4E;
-    width: 80vwS;
+    width: 80%;
+    margin-top: 90px;
 }
 .top-input::placeholder{
     color: #fff ;
@@ -62,12 +86,16 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+
+
 select{
     font-size: 24px;
     border: none;
     text-align: center;
     padding: 7px 10px;
-    box-shadow: 0px 0px 5px #333;
+    outline: none;
+    -webkit-appearance: none;
+    /* box-shadow: 0px 0px 5px #333; */
 }
 select#top-unit{
     color: #fff;

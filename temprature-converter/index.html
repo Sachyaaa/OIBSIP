@@ -8,22 +8,24 @@
     <title>Temprature Converter</title>
   </head>
   <body>
-    <div class="top">
+    <div class="container">
+      <div class="top">
         <select name="top-unit" id="top-unit">
-            <option value="f">Fahrenheit</option>
-            <option value="c">Celcius</option>
-            <option value="k">Kelvin</option>
-          </select>
-      <input class="top-input" type="number" placeholder="0"/>
-     
-    </div>
-    <div class="bottom">
-      <input disabled class="bottom-input" type="number" placeholder="0"/>
-      <select name="bottom-unit" id="bottom-unit">
-        <option value="f">Fahrenheit</option>
-        <option value="c">Celcius</option>
-        <option value="k">Kelvin</option>
-      </select>
+          <option value="f">Fahrenheit</option>
+          <option value="c">Celcius</option>
+          <option value="k">Kelvin</option>
+        </select>
+        <input class="top-input" type="number" placeholder="0" />
+        <div class="arrow-down"></div>
+      </div>
+      <div class="bottom">
+        <input disabled class="bottom-input" type="number" placeholder="0" />
+        <select name="bottom-unit" id="bottom-unit">
+          <option value="f">Fahrenheit</option>
+          <option value="c">Celcius</option>
+          <option value="k">Kelvin</option>
+        </select>
+      </div>
     </div>
 
     <script src="script.js"></script>
